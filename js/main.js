@@ -22,7 +22,7 @@ gallery.addEventListener('mouseenter',()=>{
 })
 gallery.addEventListener('mouseleave',()=>{
     timer = createTimer();
-
+})
 function createTimer(){
     return setInterval(()=>{
             n+=1;
