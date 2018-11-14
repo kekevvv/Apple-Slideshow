@@ -1,6 +1,7 @@
 var buttons = document.querySelectorAll('.menu > ul > .button');
 var images = document.querySelector('.images');
 var gallery = document.querySelector('.gallery');
+var n = 0;
 
 for(let i = 0;i<buttons.length;i++){
     buttons[i].addEventListener('click',function(event){
@@ -9,10 +10,9 @@ for(let i = 0;i<buttons.length;i++){
         images.style.cssText = `transform:translateX(${-index*920}px);`;
         event.currentTarget.classList.add('active');
         removeAcitve(event.currentTarget);
+        n = index;
     });
 }
-
-var n = 0;
 var size = buttons.length;
 buttons[n%size].click();
 var timer = createTimer();

@@ -2,9 +2,7 @@
 html{    background:#F2F2F2;}
 h1,h2{    font-weight:normal;}
 ul{    list-style: none;}
-main{    width:920px;    margin:50px auto;    color:#444444;    text-align:center;
-
-}
+main{    width:920px;    margin:50px auto;    color:#444444;    text-align:center;}
 a{    text-decoration:none;    color:#0196e3;}
 h2 > a:hover,
 p > a:hover {    border-bottom:1px solid #0196e3;}
