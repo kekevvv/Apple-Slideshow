@@ -11,41 +11,16 @@ h1{    font-size:42px;    color:#444444;    text-align:center;
 h1 > p {    font-weight:bold;}
 h2{    font-size:14px;    margin:14px 0 32px 0;}
 .gallery{    border-radius:4px;    box-shadow:0 0 2px rgba(0,0,0,0.3);    border:1px solid white;}
-.gallery .menu{
-    height:45px;
-    box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.15);
-    background: linear-gradient(to bottom, #fafafa 0%,#f2f2f2 48%,#f1f1f1 55%,#e8e8e8 100%);
-}
+.gallery .menu{    height:45px;    box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.15);    background: linear-gradient(to bottom, #fafafa 0%,#f2f2f2 48%,#f1f1f1 55%,#e8e8e8 100%);}
 .gallery .images{    display:flex;    transition:transform 0.5s;}
 .gallery .window{    width:920px;    overflow:hidden;}
 .gallery .menu > ul{    display:flex;    justify-content:center;}
-.gallery .menu > ul > .button:hover{
-    background:#F5F5F5;
-}
-.gallery .menu > ul .button{
-    height:45px;
-    width:60px;
-    border-left:1px solid white;
-    border-right:1px solid #DBDBDB;
-}
-.gallery .menu > ul .button.active{
-    background:url(../img/active_bg.png);
-    
-}
-.gallery .menu > ul .button:first-child{
-    box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.1);
-}
-.gallery .menu > ul .button:last-child{
-    box-shadow: 1px 0px 0px 0px rgba(255,255,255,1);
-}
-.gallery .menu > ul a{
-    width:100%;
-    height:100%;
-    display:block;
-}
+.gallery .menu > ul > .button:hover{    background:#F5F5F5;}
+.gallery .menu > ul .button{    height:45px;    width:60px;    border-left:1px solid white;    border-right:1px solid #DBDBDB;}
+.gallery .menu > ul .button.active{    background:url(../img/active_bg.png);}
+.gallery .menu > ul .button:first-child{    box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.1);}
+.gallery .menu > ul .button:last-child{    box-shadow: 1px 0px 0px 0px rgba(255,255,255,1);}
+.gallery .menu > ul a{    width:100%;    height:100%;    display:block;}
 .gallery .menu > ul a > img{    padding-top:10px;}
 .description{    margin-top:10px;}
 .description p{    font-size:12px;    padding-top:18px;}
-
-
-/* 因为按钮们变成了border-box 所以阴影在border-box外面 */

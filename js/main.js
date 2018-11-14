@@ -13,6 +13,7 @@ for(let i = 0;i<buttons.length;i++){
         n = index;
     });
 }
+
 var size = buttons.length;
 buttons[n%size].click();
 var timer = createTimer();
@@ -21,7 +22,6 @@ gallery.addEventListener('mouseenter',()=>{
 })
 gallery.addEventListener('mouseleave',()=>{
     timer = createTimer();
-})
 
 function createTimer(){
     return setInterval(()=>{
